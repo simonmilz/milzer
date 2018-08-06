@@ -1,0 +1,56 @@
+#newsletterModal {
+
+  .modal-dialog {
+    max-width: 1140px;
+
+    @media (max-width: 991px) {
+      max-width: calc(100% - 60px);
+    }
+
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
+
+    .modal-content {
+      border-radius: $border-radius;
+      border: none;
+
+      .close {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        z-index: 1;
+      }
+
+      .modal-body {
+        padding: 0;
+        background: $white;
+        background-size: cover;
+        border-radius: $border-radius;
+
+        &__image {
+          background: url(http://via.placeholder.com/600x600) no-repeat center;
+          background-size: cover;
+          border-top-left-radius: $border-radius;
+          border-bottom-left-radius: $border-radius;
+        }
+
+        &__content {
+          padding: 90px 0;
+
+          @media (max-width: 767px) {
+            padding: 50px;
+          }
+
+          input {
+            height: 49px;
+          }
+
+          .btn {
+            height: 49px;
+          }
+        }
+      }
+    }
+  }
+}
