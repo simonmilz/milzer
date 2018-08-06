@@ -2124,27 +2124,27 @@ a:hover {
       visibility: hidden;
       z-index: 999; }
     #locations .location-amsterdam {
-      top: 32%;
+      top: 30.5%;
       left: 48%; }
     #locations .location-london {
       top: 30.5%;
       left: 46%; }
-    #locations .location-sydney {
-      bottom: 18%;
-      right: 11.5%; }
+    #locations .location-toronto {
+      bottom: 64%;
+      left: 24.8%; }
     #locations .location-singapore {
       top: 61%;
       right: 25%; }
-    #locations .location-tokyo {
-      top: 42%;
-      right: 15%; }
-    #locations .location-losangeles {
-      top: 40%;
-      left: 13.5%; }
-    #locations .location-miami {
-      top: 49%;
-      left: 24.5%; }
-    #locations .location-seattle {
+    #locations .location-frankfurt {
+      top: 32%;
+      right: 49.5%; }
+    #locations .location-bangalore {
+      top: 55%;
+      right: 31.5%; }
+    #locations .location-newyork {
+      top: 35%;
+      left: 27%; }
+    #locations .location-sanfrancisco {
       top: 35%;
       left: 13.5%; }
     #locations .location__pin {
