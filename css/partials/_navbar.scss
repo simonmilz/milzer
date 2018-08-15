@@ -30,6 +30,7 @@
 
           &.dark {
             display: block;
+            filter: none;
           }
         }
       }
@@ -87,7 +88,8 @@
       }
 
       > img {
-        height: 38px;
+        height: 48px;
+        filter: brightness(0) invert(1);
 
         &.dark {
           display: none;
@@ -101,6 +103,7 @@
 
           &.dark {
             display: block;
+            filter: none;
           }
         }
       }
