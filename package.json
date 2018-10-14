@@ -1,5 +1,5 @@
 {
-  "name": "hosting",
+  "name": "milzer.de",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,8 +26,9 @@
     "gulp-uglify": "^3.0.0"
   },
   "scripts": {
+    "start": "php -S localhost:8080 -t public public/index.php",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PeElOne",
+  "author": "Simon Milz",
   "license": "ISC"
 }
