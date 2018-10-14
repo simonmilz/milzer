@@ -151,6 +151,7 @@
       .footer__logo {
         margin: 0 auto 60px auto;
         max-height: 80px;
+        filter: brightness(0) invert(1);
       }
 
       .preamble {
