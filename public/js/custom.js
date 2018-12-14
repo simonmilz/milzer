@@ -275,7 +275,7 @@ $(document).scroll(function() {
 
         if (!localStorage.getItem("done")) {
             setTimeout(function() {
-                modal.modal('show');
+                // modal.modal('show');
             }, 1400);
         }
         localStorage.setItem("done", true);
